@@ -69,7 +69,7 @@ clear
 
 #Bash.bash
 mkdir .Bash.bashrc_original
-mv /data/data/com.termux/files/usr/etc/motd /data/data/com.termux/files/usr/etc/bash.bashrc /$HOME/termux/.Bash.bashrc_original
+rm -rf /data/data/com.termux/files/usr/etc/motd /data/data/com.termux/files/usr/etc/bash.bashrc
 mv /$HOME/termux/bash.bashrc /data/data/com.termux/files/usr/etc
 
 #---------------- herramientas ----------------#
